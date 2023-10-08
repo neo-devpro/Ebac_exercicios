@@ -1,0 +1,48 @@
+* {
+    font-family: Roboto, sans-serif;
+    background-color: rgb(240, 201, 247);
+    margin-top: 3%;
+
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(76, 108, 137);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    
+}
+
+button {
+    padding: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+li.done {
+    text-decoration: line-through;
+}
+li.done .texto {
+    text-decoration: line-through;
+}
